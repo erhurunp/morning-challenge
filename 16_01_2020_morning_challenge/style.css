@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+ul {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin: 0 4px;
+}
+
+.odd {
+    background-color:rgb(208, 172, 241);
+    animation: odd 1.50s infinite ease-in-out;
+}
+
+.even {
+  filter:blur(0.5px);
+  transform: rotateZ(-30deg);
+  z-index: 2;
+  background: radial-gradient(#706ac0, #9198e5);
+   animation: even 1.50s infinite ease-in-out;
+}
+
+@keyframes even {
+    0%,80%,100% { transform: scale(0) }
+    20% { transform: scale(1) }
+}
+
+@keyframes odd {
+   from{
+      opacity:1;
+      transform: translateZ(0) scale(0,0);
+    }
+
+    to{
+      opacity:0;
+      transform:translateZ(0) scale(1.5,1.5);
+      
+    }
+
+}
+
+.one{
+    animation-delay: -0.75s;
+}
+
+.two{
+    animation-delay: -0.50s; 
+}
+
+.three{
+    animation-delay: -0.35s; 
+}
+
+.four{
+    animation-delay: -0.20s; 
+}
+
