@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    max-width: auto;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    margin: 20px 20px 0px 20px;
+    background-color: #fff;
+    padding-top: 10px;
+}
+
+.logo, .search-bar, .app, .user {
+    display: inline-block;
+}
+
+.logo {
+    width: 92px;
+    height: 30px;
+    float: left;
+    margin-top: 10px;
+}
+
+.search-bar {
+    float: left;
+    width: 40%;
+    padding: 12px 20px;
+    border: #dfe1e5 1px solid;
+    border-radius: 40px;
+    margin-left: 40px;
+    background: url('mic.png') no-repeat 490px 10px /20px auto,
+    url('search.png') no-repeat 530px 10px /16px auto;
+}
+
+.user, .app {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: right;
+}
+
+.app {
+    margin-right: 15px;
+}
+
+.app:hover {
+    background-color: rgba(60, 64, 67, 0.08);
+}
+
+.apps {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 20% 20% 0 18%;
+}
+
+.paschal {
+    width: 26px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 10% 20% 0 18%;
+}
+
+.navi {
+    max-width: auto;
+    height: 20px;
+    padding: 20px 0px 15px 150px;
+    border: none;
+    border-bottom: #dfe1e5 1px solid; 
+}
+
+.navi div img {
+    width: auto;
+    height: 15px;
+}
+
+.navi div a {
+    text-decoration: none;
+}
+
+.navi div p a {
+    text-decoration: none;
+    color: #b5b7bb;
+}
+
+.all, .imgs, .vids, .news, .map, .more, .others {
+    display: inline-block;
+}
+
+.all p {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.imgs p {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.vids p {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.news p {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.map p {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.more p {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.others p {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.imgs, .vids, .news, .map, .more {
+    padding-left: 10px;
+}
+
+.others {
+    margin-left: 50px;
+}
+
+.others p {
+    margin-left: 25px;
+}
+
+main {
+    width: 600px;
+    margin-left: 150px;
+}
+
+.pg-title {
+    font-size: 14px;
+    color: #70757a;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.link {
+    font-size: 13px;
+    color: #70757a;
+}
+
+.thumbnail {
+    height: 15px;
+    width: auto;
+    color: #3c4043;
+}
+
+.head {
+    display: block;
+    font-size: 20px;
+    color: #1a0dab;
+    font-weight: 150;
+    margin: 7px 0px 7px 0px;
+}
+
+.result {
+    margin-bottom: 25px;
+    color: #3c4043;
+}
+
+
+.content {
+    font-size: 14px;
+    color: #3c4043;
+}
+
+main a {
+    text-decoration: none;
+}
+
+#related-search {
+    font-size: 20px;
+    line-height: 26px;
+    color: #222222;
+    margin-bottom: 25px;
+}
+
+.list1, .list2 {
+    display: inline-block;
+    list-style: none;
+}
+
+.list1 {
+    padding-left: 0px;
+}
+
+ul li {
+    padding-bottom: 7px;
+}
+
+ul li a {
+    line-height: 14px;
+    color: #1a0dab;
+}
+
+aside .google-navi {
+    margin: 30px 0px 0px 300px;
+}
+
+aside .google-nav {
+    margin: 0px 0px 20px 270px;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+.google-navi a {
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+aside .blue {
+    color: #4285f4;
+}
+
+aside .idle {
+    color: #fbbc05;
+}
+
+aside .selected {
+    color: #ea4335;
+}
+
+.google-nav a {
+    font-size: small;
+}
+
+.text {
+    font-size: small;
+}
+
+.txt-one {
+    margin-right: 29px;
+}
+
+.txt-two {
+    margin-left: 45px;
+}
+
+.number {
+    margin: 0px 5px 0px 5px;
+}
+
+.current-pg {
+    color: #212121;
+}
+
+footer {
+    background-color: #f2f2f2;
+    margin-top: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #8a6f6f;
+    font-size: 14px;
+}
+
+footer p {
+    color: #8a6f6f;
+    font-size: 14px;
+}
+
+footer .top-footer p, .circle {
+    display: inline-block;
+}
+
+footer .bold {
+    font-weight: bold;
+    color: #333;
+}
+
+footer .top-footer .circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #9e9e9e;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: #e4e4e4;
+}
+
+footer .top-footer, .lower-footer {
+    margin-left: 150px;
+    height: 20px;
+    padding: 15px 0px 15px 0px;
+}
+
+footer .lower-footer #help, #feedback, #terms, #privacy {
+    margin-right: 15px;
+}
