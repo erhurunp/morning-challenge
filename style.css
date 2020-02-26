@@ -1,18 +1,235 @@
 * {
-  font-family: Arial;
-  text-align: center;
-}
-
-nav {
-  background-color: #12ff00;
-  color:#ffffff; 
-  font-size: 30px;
+    margin: 0;
 }
 
 body {
-  background-color: rgb(235, 222, 222)
+    background-color: #a9d7d1;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.btn {
-  border-radius: 5px;
+.container {
+    border: 1px solid #a9d7d1;
+    background-color: #ffffff;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.wrapper header {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container legend {
+    margin: 10px 0;
+}
+
+.name, .email, .age, .option {
+    margin: 10px 0;
+}
+
+.name, .email, .age {
+    text-align: left;
+    margin-left: 20px;
+}
+
+input[type=text], [type=email] {
+    padding: 3px 3px;
+}
+
+input[type=email] {
+    margin-left: 3px;
+}
+
+input[type=checkbox], [type=radio] {
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+.age input[type=text] {
+    margin-left: 12px;
+}
+
+.text {
+    margin-bottom: 5px;
+}
+
+.recommend, .like {
+    margin: 20px 0;
+}
+
+.boxes {
+    margin-bottom: 10px;
+}
+
+.radio, .boxes {
+    text-align: left;
+    margin-left: 70px;
+}
+
+select {
+    padding: 5px 3px;
+    background-color: #f0f0f0;
+    border: none;
+}
+
+button {
+    padding: 5px 5px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 400px) {
+    .wrapper{
+        width: 100%;
+    }
+    
+    input[type=text], [type=email] {
+        width: 60%;
+    }
+
+    .name, .email, .age {
+        margin-left: 50px;
+    }
+
+    .radio, .boxes {
+        margin-left: 100px;
+    }
+    
+}
+
+@media screen and (min-width: 760px) {
+    .wrapper {
+        width: 100%;
+    }
+    
+    input[type=text], [type=email] {
+        width: 40%;
+    }
+
+    .name, .email, .age {
+        margin-left: 190px;
+    }
+
+    .option p, select {
+        display: inline-block;
+    }
+
+    .option, .recommend, .like, .improve {
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    .recommend .text {
+        width: 40%;
+        text-align: right;
+        position: absolute;
+    }
+
+    .radio {
+        margin: 0;
+        position: relative;
+        top: 0px;
+        left: 55%;
+    }
+
+    .like label, .likes {
+        display: inline-block;
+    }
+
+    .like {
+        margin-left: 150px;
+    }
+
+    .improve .text {
+        text-align: right;
+        position: absolute;
+    }
+
+    .boxes {
+        margin: 0;
+        position: relative;
+        top: 0;
+        left: 55%;
+    }
+
+    button {
+        margin: 10px 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    html {
+        overflow: hidden;
+    }
+
+    .wrapper{
+        width: 100%;
+    }
+
+    .wrapper header {
+        font-size: 20px;
+    }
+
+    .container {
+        width: 60%;
+        height: auto;
+    }
+
+    input[type=text], [type=email] {
+        width: 30%;
+    }
+
+    .name, .email, .age {
+        margin-left: 30%;
+    }
+
+    .option p, select {
+        display: inline-block;
+    }
+
+    .option, .recommend, .like, .improve {
+        text-align: left;
+        margin-left: 20%;
+    }
+
+    .recommend .text {
+        width: 20%;
+        text-align: right;
+        position: absolute;
+    }
+
+    .radio {
+        margin: 0;
+        position: relative;
+        top: -3px;
+        left: 43%;
+    }
+
+    .like label, .likes {
+        display: inline-block;
+    }
+
+    .like {
+        margin-left: 250px;
+    }
+
+    .improve .text {
+        text-align: right;
+        position: absolute;
+    }
+
+    .boxes {
+        margin: 0;
+        position: relative;
+        top: -3px;
+        left: 54%;
+    }
+
+    button {
+        margin: 10px 0;
+    }
 }

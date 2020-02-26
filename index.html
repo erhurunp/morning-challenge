@@ -1,19 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Morning Challenge 05/12/2019</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
 <body>
-  <h2>MORNING CHALLENGE - 05/12/2019</h2>
-  <p>To create a directory named <b>my-folder</b> the command <code>mkdir my-folder</code> is used.</p>
-  <p>To create a file named <b>index.html</b> use the command <code>tourch index.html</code> is used.</p>
-  <p>To check the <b>current working directory</b> use the command <code>pwd</code></p>
-  <p>To <b>list the contents</b> in a current working directory, use the command <code>ls</code></p>
+    <div class="wrapper">
+        <header>Survey Form</header>
+        <div class="container">
+            <form action="#">
+                <legend>Let us know how we can improve freeCodeCamp</legend>
+                <div class="name">
+                    <label for="name">*Name:</label>
+                    <input type="text" placeholder="Enter your name" required>
+                </div>
+                <div class="email">
+                    <label for="email">*Email:</label>
+                    <input type="email" placeholder="Enter your Email" required>
+                </div>
+                <div class="age">
+                    <label for="age">*Age:</label>
+                    <input type="text" placeholder="Age" required>
+                </div>
+                <div class="option">
+                    <p for="option">Which option bests describes your current role?</p>
+                    <select name="option" id="option">
+                        <option value="student">Student</option>
+                        <option value="fulltime">Full time worker</option>
+                        <option value="parttime">Part-time worker</option>
+                        <option value="developer">Developer</option>
+                        <option value="designer">Designer</option>
+                    </select>
+                </div>
+                <div class="recommend">
+                    <p class="text">*How likely is that you would recommend freeCodeCamp to a friend?</p>
+                    <div class="radio">
+                        <input type="radio" name="suggestion1" value="definitely"> Definitely<br />
+                        <input type="radio" name="suggestion2" value="maybe"> Maybe<br />
+                        <input type="radio" name="suggestion3" value="not-sure"> Not sure
+                    </div>
+                </div>
+                <div class="like">
+                    <label for="like">What do you like most in FCC:</label>
+                    <div class="likes">
+                        <select name="likes" id="likes">
+                            <option value="select">Select an option</option>
+                            <option value="course-work">Course work</option>
+                            <option value="practice">Practice questions</option>
+                            <option value="syllabus">Syllabus</option>
+                            <option value="videos">Videos</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="improve">
+                    <p class="text">Things that should be improved in the future<br />(Check all that apply):</p>
+                </div>
+                <div class="boxes">
+                    <input type="checkbox" name="improve1" value="front-end"> Front-end Projects<br />
+                    <input type="checkbox" name="improve2" value="back-end"> Back-end Projects<br />
+                    <input type="checkbox" name="improve3" value="data-vis"> Data Visualization
+                </div>
+                <button onclick="alert('Thanks for your response')">Submit</button>
+            </form>
+        </div>
+    </div>
 </body>
-
 </html>
