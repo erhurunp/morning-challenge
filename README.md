@@ -17,4 +17,4 @@ Challenge for Week 6, Day 1 Email links (Html and CSS)
 
 Challenge for Week 6, Day 2 Select all PDF links (CSS)
 
-Challenge for Week 7, Day 1
+Challenge for Week 7, Day 1 Animated search
