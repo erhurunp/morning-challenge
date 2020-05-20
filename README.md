@@ -14,3 +14,5 @@ Challenge for 21/01/2020 Google Search Result Page
 Challenge for 23/01/2020 Survey Form
 
 Challenge for Week 6, Day 1 Email links (Html and CSS)
+
+Challenge for Week 6, Day 2 Select all PDF links (CSS)
