@@ -1,18 +1,43 @@
-* {
-  font-family: Arial;
+.container {
+  background-color: beige;
+  height: 50%;
+  width: 600px;
+  margin: 0 auto;
   text-align: center;
 }
 
-nav {
-  background-color: #12ff00;
-  color:#ffffff; 
-  font-size: 30px;
+input[type=text] {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  padding: 10px 40px;
+  border-radius: 3px;
+  border: 1px solid aqua;
 }
 
-body {
-  background-color: rgb(235, 222, 222)
+input[type=text]:focus {
+  width: 40%;
 }
 
 .btn {
-  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: blueviolet;
+  border: none;
+  border-radius: 10px;
+  margin: 15px 0;
+  transition-duration: 0.1s;
+}
+
+.btn:hover {background-color: blue}
+
+.btn:active {
+  background-color: beige;
+  color: blue;
 }
