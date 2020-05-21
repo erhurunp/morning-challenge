@@ -1,18 +1,53 @@
 * {
-  font-family: Arial;
-  text-align: center;
+    margin: 0;
+    background-color: beige;
 }
 
-nav {
-  background-color: #12ff00;
-  color:#ffffff; 
-  font-size: 30px;
+.top {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 15%;
+    color: white;
 }
 
-body {
-  background-color: rgb(235, 222, 222)
+.container {
+    height: 50%;
+    width: 50%;
+    margin: 0 25% 0 25%;
+}
+
+.container header {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+input[list] {
+    display: inline-block;
+    width: 40%;
+    padding: 12px 20px;
+    margin: 10px 10px 10px 100px;
+    border: black 1px solid;
+    background-color: transparent;
+    border-radius: 5px;
 }
 
 .btn {
-  border-radius: 5px;
+    display: inline-block;
+    width: 20%;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+}
+
+.bottom {
+    height: 59px;
+    width: 100%;
+    background-color: black;
+    margin-top: 20%;
 }
