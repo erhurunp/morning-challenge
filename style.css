@@ -1,18 +1,37 @@
 * {
-  font-family: Arial;
-  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-nav {
-  background-color: #12ff00;
-  color:#ffffff; 
-  font-size: 30px;
+.main {
+  position: relative;
+  top: 100px;
+  left: 500px;
 }
 
-body {
-  background-color: rgb(235, 222, 222)
+h2 {
+  margin-bottom: 10px;
+  text-align: centre;
+}
+
+textarea {
+  margin-bottom: 5px;
+  display: block;
 }
 
 .btn {
+  width: 100px;
+  padding:5px;
   border-radius: 5px;
+  border: 1px solid;
+  margin: 0 auto;
+}
+
+.try-this {
+  margin-top: 5px;
+  text-align: justify;
+}
+
+h3 {
+  text-align: centre;
 }
