@@ -20,3 +20,5 @@ Challenge for Week 6, Day 2 Select all PDF links (CSS)
 Challenge for Week 7, Day 1 Animated search
 
 Challenge for Week 7, Day 2 Styled Html element
+
+Challenge for Week 8, Day 1 Find the longest word
